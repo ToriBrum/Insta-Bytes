@@ -9,7 +9,7 @@ export async function listarPosts(req, res) {
     res.status(200).json(posts);
 }
 
-export async function postarNovoPost(req, res) {
+export async function postNewPost(req, res) {
     const novoPost = req.body;
     try {
         const postCriado = await criarPost(novoPost);
