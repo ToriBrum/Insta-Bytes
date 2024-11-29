@@ -1,0 +1,50 @@
+/* Estilos gerais */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Menu */
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    margin: 0 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Corpo */
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+/* Imagens */
+img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Rodapé */
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
